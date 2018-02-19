@@ -1,0 +1,12 @@
+{
+  "name": "redsign77/vtesapi",
+  "description": "Vampire: the Eternal Struggle API",
+  "minimum-stability": "dev",
+  "license": "MIT Licence",
+  "authors": [
+	{
+	  "name": "Németh Zoltán",
+	  "email": "signred@gmail.com"
+	}
+  ]
+}
