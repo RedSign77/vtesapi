@@ -8,5 +8,8 @@
 	  "name": "Németh Zoltán",
 	  "email": "signred@gmail.com"
 	}
-  ]
+  ],
+  "require": {
+    "slim/slim": "3.9.2"
+  }
 }
