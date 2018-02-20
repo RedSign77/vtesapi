@@ -24,7 +24,11 @@
 	$app = new Slim\App($config);
 
 	$app->get('/', function (Request $request, Response $response, array $args) {
-
+		$response->withStatus(200)
+			->getBody()->withJson([
+				'name' => 'x'
+			]);
+		return $response;
 	});
 
 	$app->run();
